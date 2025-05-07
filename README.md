@@ -2,7 +2,7 @@ How to Run the Project Locally After Cloning
 
 1. Clone the Repository
 
-- git clone https://github.com/your-username/your-repo-name.git
+- git clone https://github.com/Sarovarshaikh/movie-API.git
 - cd your-repo-name
 
 2. Install Dependencies
@@ -13,7 +13,7 @@ How to Run the Project Locally After Cloning
 
 - Inside the root folder, create a .env file and add:
 
-DATA_BASE_URL=your_mongodb_connection_string
+MONGODB_URL = "mongodb://127.0.0.1:27017/mivie-nameDB"
 PORT=5000
 
 4. Start the Server
